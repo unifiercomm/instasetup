@@ -13,7 +13,7 @@ mkdir -p "$HOME/unifierbot"
 main="$HOME/unifierbot"
 
 echo "• | Downloading dependency list."
-curl -o "$HOME/requirements.txt" https://raw.githubusercontent.com/UnifierHQ/unifier/refs/heads/main/requirements.txt | pip install -r requirements.txt
+curl -o "$HOME/requirements.txt" https://raw.githubusercontent.com/UnifierHQ/unifier/refs/heads/main/requirements.txt | pip install -r "$HOME/requirements.txt"
 
 echo "• | Downloading Unifier files."
 git clone https://github.com/UnifierHQ/unifier $main
