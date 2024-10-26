@@ -2,4 +2,7 @@
 > this is not official.
 
 # Linux script:
-```aa```
+```curl -s https://raw.githubusercontent.com/Arhznblaster/unifier-instasetup/refs/heads/main/setup.sh | sh```
+
+# Windows script:
+```curl -O https://raw.githubusercontent.com/Arhznblaster/unifier-instasetup/refs/heads/main/setup.bat && setup.bat```
