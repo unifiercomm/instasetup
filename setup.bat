@@ -13,7 +13,7 @@ set "Reset=0m"
 :mainMenu
 cls
 echo %<%%Green%==========================================
-echo =     Welcome to the Unifier Setup!      =
+echo =     Unifier Installer - Welcome!          =
 echo ==========================================%>%
 echo.
 echo Select an option:
