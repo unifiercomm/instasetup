@@ -5,7 +5,6 @@ echo "• | Welcome to the Unifier Instant Setup script!"
 # Main menu loop
 while true; do
     echo ""
-    echo "Main Menu:"
     echo "1. Install Unifier"
     echo "2. Remove Unifier"
     echo "3. Exit"
